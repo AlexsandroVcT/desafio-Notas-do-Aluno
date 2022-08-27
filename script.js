@@ -14,7 +14,7 @@ let nome_Final = document.querySelector(".nameExit");
 btnExecutar.addEventListener("click", () => {
     nome_Final.innerHTML = nome.value;
   nota1.innerHTML = Number(saida1.value).toFixed(1);
-  nota2.innerHTML = Number(saida1.value).toFixed(1);
+  nota2.innerHTML = Number(saida2.value).toFixed(1);
   nota3.innerHTML = Number(saida3.value).toFixed(1);
 
   let media = (Number(saida1.value) + Number(saida3.value) + Number(saida2.value)) / 3;
