@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notas de aluno</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Notas alunos</h1>
+    </header>
+
+    <div class="container-body">
+      <div>
+        <label for="">Digite Nome:</label>
+        <input class="name" type="text" spellcheck="false" placeholder="Digite o nome do aluno" />
+      </div>
+      <div>
+        <label>Digite_Nota1: </label>
+        <input
+          class="saida1"
+          type="number"
+          placeholder="Digite a primeira nota do Aluno"
+        />
+      </div>
+      <div>
+        <label>Digite_Nota2: </label>
+        <input
+          class="saida2"
+          type="number"
+          placeholder="Digite a segunda nota do Aluno"
+        />
+      </div>
+      <div>
+        <label>Digite_Nota3: </label>
+        <input
+          class="saida3"
+          type="number"
+          placeholder="Digite a terceira nota do Aluno"
+        />
+      </div>
+
+      <div>
+        <button class="btn-executar">executar</button>
+      </div>
+    </div>
+    <div class="resultado-lateral div-lado">
+      <table>
+        <tr>
+          <th>Nome Aluno</th>
+          <th>Nota_1</th>
+          <th>Nota_2</th>
+          <th>Nota_3</th>
+          <th>Resultado_final</th>
+        </tr>
+        <tbody>
+          <td><span class="nameExit"> </span></td>
+          <td><span class="nota1"> </span></td>
+          <td><span class="nota2"> </span></td>
+          <td><span class="nota3"> </span></td>
+          <td><span class="resultado"> </span></td>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
